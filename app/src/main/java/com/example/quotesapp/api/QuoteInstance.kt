@@ -1,4 +1,4 @@
-package com.example.quotesapp
+package com.example.quotesapp.api
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

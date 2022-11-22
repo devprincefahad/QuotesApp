@@ -1,4 +1,4 @@
-package com.example.quotesapp
+package com.example.quotesapp.ui.view
 
 import android.content.ClipData
 import android.content.ClipboardManager
@@ -11,7 +11,12 @@ import androidx.appcompat.app.AppCompatDelegate
 import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
+import com.example.quotesapp.ui.interfaces.CopyListener
+import com.example.quotesapp.QuotesListAdapter
+import com.example.quotesapp.R
+import com.example.quotesapp.api.QuoteInstance
 import com.example.quotesapp.databinding.ActivityMainBinding
+import com.example.quotesapp.model.QuotesResponse
 import retrofit2.Call
 import retrofit2.Response
 

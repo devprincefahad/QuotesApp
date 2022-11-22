@@ -1,4 +1,4 @@
-package com.example.quotesapp
+package com.example.quotesapp.model
 
 class QuotesResponse {
     var text: String = ""

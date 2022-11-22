@@ -1,5 +1,6 @@
-package com.example.quotesapp
+package com.example.quotesapp.api
 
+import com.example.quotesapp.model.QuotesResponse
 import retrofit2.Call
 import retrofit2.http.GET
 

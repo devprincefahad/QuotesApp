@@ -1,4 +1,4 @@
-package com.example.quotesapp
+package com.example.quotesapp.ui.interfaces
 
 interface CopyListener {
     fun onCopyClicked(text: String)
