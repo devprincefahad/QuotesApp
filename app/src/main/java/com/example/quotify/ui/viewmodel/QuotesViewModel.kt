@@ -24,9 +24,6 @@ class QuotesViewModel(val quoteRepository: QuoteRepository) : ViewModel() {
         }
     }
 
-//    val quotesLiveData: LiveData<QuoteList>
-//        get() = quoteRepository.quotes
-
     fun onNext() {
         if (position == quotes.size - 1) {
             return

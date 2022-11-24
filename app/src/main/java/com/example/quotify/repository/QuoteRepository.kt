@@ -7,8 +7,6 @@ import com.example.quotify.model.QuoteList
 class QuoteRepository(private val quoteInterface: QuoteInterface) {
 
     private val quotesLiveData = MutableLiveData<QuoteList>()
-//    val quotes: LiveData<QuoteList>
-//        get() = quotesLiveData
 
     suspend fun getQuotes(page: Int): QuoteList? {
         val result = quoteInterface.getQuotes(page)
