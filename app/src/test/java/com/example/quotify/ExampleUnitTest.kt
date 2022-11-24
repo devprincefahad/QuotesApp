@@ -1,4 +1,4 @@
-package com.example.quotesapp
+package com.example.quotify
 
 import org.junit.Test
 

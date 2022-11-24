@@ -3,7 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/1pfch/AndroidStudioProjects/QuotesApp/app/src/main/res/layout/activity_main.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/1pfch/AndroidStudioProjects/QuotesApp/app/src/main/res/drawable/bg_background.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/1pfch/AndroidStudioProjects/QuotesApp/app/src/main/res/drawable/bg_card.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/1pfch/AndroidStudioProjects/QuotesApp/app/src/main/res/drawable/bg_gradient.xml" value="0.2203125" />
+        <entry key="..\:/Users/1pfch/AndroidStudioProjects/QuotesApp/app/src/main/res/drawable/ic_arrow.xml" value="0.2203125" />
+        <entry key="..\:/Users/1pfch/AndroidStudioProjects/QuotesApp/app/src/main/res/drawable/ic_copy.xml" value="0.2203125" />
+        <entry key="..\:/Users/1pfch/AndroidStudioProjects/QuotesApp/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/1pfch/AndroidStudioProjects/QuotesApp/app/src/main/res/layout/list_quotes.xml" value="0.20416666666666666" />
       </map>
     </option>

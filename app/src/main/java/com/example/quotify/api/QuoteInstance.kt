@@ -1,11 +1,11 @@
-package com.example.quotesapp.api
+package com.example.quotify.api
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
 object QuoteInstance {
     private val retrofit = Retrofit.Builder()
-        .baseUrl("https://type.fit/")
+        .baseUrl("https://quotable.io/")
         .addConverterFactory(GsonConverterFactory.create())
         .build()
 

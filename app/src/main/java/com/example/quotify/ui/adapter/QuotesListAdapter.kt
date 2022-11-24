@@ -1,4 +1,4 @@
-package com.example.quotesapp
+package com.example.quotify
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -7,12 +7,12 @@ import android.view.ViewGroup
 import android.widget.Button
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.quotesapp.model.QuotesResponse
-import com.example.quotesapp.ui.interfaces.CopyListener
+import com.example.quotify.model.Result
+import com.example.quotify.ui.interfaces.CopyListener
 
 class QuotesListAdapter(
     val context: Context,
-    val list: List<QuotesResponse>,
+    val list: List<Result>,
     val listener: CopyListener
 
 ) :
@@ -24,10 +24,10 @@ class QuotesListAdapter(
     }
 
     override fun onBindViewHolder(holder: QuotesViewHolder, position: Int) {
-        holder.textView_quote.text = list.get(position).text
+        holder.textView_quote.text = list.get(position).content
         holder.textView_author.text = list.get(position).author
         holder.btnCopy.setOnClickListener {
-            listener.onCopyClicked(list.get(holder.adapterPosition).text)
+            listener.onCopyClicked(list.get(holder.adapterPosition).content!!)
         }
     }
 
