@@ -14,4 +14,4 @@ Quotify is user-friendly simple application to read and share quotes.
 - Retrofit
 - Live Data
 - MVVM
-
+- Coroutines
